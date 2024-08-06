@@ -42,6 +42,12 @@ These examples use real test data from a Monte-Carlo simulation of the collectio
 ![image](https://github.com/user-attachments/assets/650ef56f-d4a2-4a56-97c4-c00fb6d2a74a)
 ![image](https://github.com/user-attachments/assets/47e089f8-8093-4d60-a0e8-dfa999ed2b73)
 
+
+# Use this code
+change `model = tf.keras.models.load_model()` and `img = ''` to str with your .h5 and .npy file location respectively
+
+
+
 # References
 1. Ioffe, S. and Szegedy, C. (2015) Batch Normalization: Accelerating Deep Network Training
 by Reducing Internal Covariate Shift [Preprint]. Available at:https://arxiv.org/pdf/1502.03167.
