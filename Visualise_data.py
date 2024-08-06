@@ -46,9 +46,22 @@ for file in files:
 plt.figure()
 plt.grid(True)
 
+
+
 plt.title('Data distribution per class')
-plt.bar(labels, [electron, kaon, muon, photon, pion, pion_zero])
+plt.bar(labels, [3000, 2000, 3000, 3000, 3000, 1000], alpha = 0.5)
+plt.bar(labels, [electron, kaon, muon, photon, pion, pion_zero], color = 'b')
+plt.text(0, electron, electron, ha='center', va='bottom')
+plt.text(1, kaon, kaon, ha='center', va='bottom')
+plt.text(2, muon, muon, ha='center', va='bottom')
+plt.text(3, photon, photon, ha='center', va='bottom')
+plt.text(4, pion, pion, ha='center', va='bottom')
+plt.text(5, pion_zero, pion_zero, ha='center', va='bottom')
 plt.show()
+
+
+
+
 
 print("Electron: ", electron)
 print("Kaon: ", kaon)
