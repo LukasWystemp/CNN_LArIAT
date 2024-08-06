@@ -45,7 +45,8 @@ These examples use real test data from a Monte-Carlo simulation of the collectio
 
 # Use this code
 change `model = tf.keras.models.load_model()` and `img = ''` to str with your .h5 and .npy file location respectively
-
+Change `layer_name = 'conv2d_2'` and `activation_layer = 'conv2d_2'` to whatever layer you want to investigate according to `model.summary()`. 
+Change class names
 
 
 # References
