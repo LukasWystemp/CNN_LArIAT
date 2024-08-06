@@ -9,10 +9,10 @@ The question it aimed to address was:
 
 | Project files | What they do |
 | --------------| -------------|
-| make_train_model.py | Makes the model and trains it in the same file |
+| make_train_model.py | Makes the model and trains it in the same file |
 | Visualise_data_distribution.py | Overview of LArIAT data distribution |
 | original_model.h5 | Trained model weights, this model experienced issues with overfitting: 75% accuracy|
-| new_model.h5 | Trained model weights, overfitting is mitigated at the cost of some accuracy: 64% accuracy |
+| new_model.h5 | Trained model weights, overfitting is mitigated at the cost of some accuracy: 64% accuracy |
 | model_visualisation.py | Different gradient-based visualisation techniques |
 
 
@@ -39,7 +39,17 @@ These examples use real test data from a Monte-Carlo simulation of the collectio
 ![image](https://github.com/user-attachments/assets/650ef56f-d4a2-4a56-97c4-c00fb6d2a74a)
 ![image](https://github.com/user-attachments/assets/47e089f8-8093-4d60-a0e8-dfa999ed2b73)
 
-
+# References
+1. Ioffe, S. and Szegedy, C. (2015) Batch Normalization: Accelerating Deep Network Training
+by Reducing Internal Covariate Shift [Preprint]. Available at:https://arxiv.org/pdf/1502.03167.
+2. Zhao, L. and Zhang, Z. (2024) A improved pooling method for Convolutional Neural Net- works, Nature News. Available at: https://www.nature.com/articles/s41598-024-51258-
+6: :text=Max%20pooling%20is%20a%20commonly,each%20small%20window%20or%20region. (Accessed: 03 August 2024).
+3. Bohra, Y. (2024) The challenge of vanishing/exploding gradients in deep neural networks, Analytics Vidhya. Available at: https://www.analyticsvidhya.com/blog/2021/06/the-challenge- of-vanishing-exploding-gradients-in-deep-neural-networks/ (Accessed: 03 August 2024).
+4. P.A. Zyla et al. (2020), Particle Data Group, Prog. Theor. Exp. Phys. 2020, 083C01
+5. Selvaraju, R.R. et al. (2017) ‘Grad-CAM: Visual explanations from deep networks via gradient-based localization’, 2017 IEEE International Conference on Computer Vision (ICCV) [Preprint]. doi:10.1109/iccv.2017.74
+6. Mokuwe, M., Burke, M. and Bosman, A.S. (2020) Black-box saliency map generation using Bayesian optimisation, arXiv.org. Available at: https://arxiv.org/abs/2001.11366 (Accessed: 31 July 2024).
+7. Sundararajan, M., Yan, Q. and Taly, A. (2013) Axiomatic Attribution for Deep Networks. Available at: https://arxiv.org/pdf/1703.01365 (Accessed: 31 July 2024).
+8. Kim, B. et al. (2019) ‘Why are saliency maps noisy? Cause of and solution to noisy saliency maps’, 2019 IEEE/CVF International Conference on Computer Vision Workshop (ICCVW) [Preprint]. doi:10.1109/iccvw.2019.00510
 
 
 
