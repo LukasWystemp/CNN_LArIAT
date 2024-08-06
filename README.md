@@ -16,6 +16,11 @@ There are several files for this project:
 
 | Project files | What they do |
 | --------------| -------------|
-| make_train_model.py | test |
+| make_train_model.py | Makes the model and trains it in the same file |
+| Visualise_data_distribution.py | Overview of LArIAT data distribution |
+| original_model.h5 | Trained model weights, this model experienced issues with overfitting: 75% accuracy|
+| new_model.h5 | Trained model weights, overfitting is mitigated at the cost of some accuracy: 64% accuracy |
+| model_visualisation.py | Different gradient-based visualisation techniques |
+
 
  
