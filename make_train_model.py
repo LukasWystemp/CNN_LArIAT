@@ -21,7 +21,7 @@ import matplotlib.pyplot as plt
 ### LOAD DATA AND PREP MODEL ###
 
 def read_data():
-    data_dir = '/Users/lukaswystemp/Documents/University/UoM_Internship/npData_2'
+    data_dir = ''
     labels = ['electron', 'kaon', 'muon', 'photon', 'pion', 'pion_zero']
 
     # Load data
