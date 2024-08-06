@@ -28,4 +28,8 @@ The question it aimed to address was:**
 | Guided Backpropagation | pixels that are detected by the neurons, discarding the pixels that suppress the neurons |
 | Guided Grad-CAM |combiens GBP and Grad-CAM |
 
+
+Visual example. These examples use real test data from a Monte-Carlo simulation of the collection plane at LArIAT. 
+![image](https://github.com/user-attachments/assets/28f2fc43-3a20-46b8-bfc6-bbafff0b3e6e)
+
  
