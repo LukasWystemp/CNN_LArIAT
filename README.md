@@ -8,7 +8,18 @@ The question it aimed to address was:**
 - Utilising gradient based localisation to visually represent the neural network, can I gain insights into its classification mechanisms to maximise the model’s performance, ensure applicability at LArIAT and other LArTPCs, and improve resilience to noise?
 
 There are several files for this project:
-- t
+- Visualise_data_distribution.py
+- make_train_model.py
+- model_visualisation.py
+- new_model.h5
+- original_model.h5
 
+\begin{center}
+\begin{tabular}{ c c c }
+ cell1 & cell2 & cell3 \\ 
+ cell4 & cell5 & cell6 \\  
+ cell7 & cell8 & cell9    
+\end{tabular}
+\end{center}
 
  
