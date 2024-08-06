@@ -48,6 +48,7 @@ These examples use real test data from a Monte-Carlo simulation of the collectio
 - Change `layer_name = 'conv2d_2'` and `activation_layer = 'conv2d_2'` to whatever layer you want to investigate according to `model.summary()`. 
 - Change class names
 
+Assumes that your model is similar to `make_train_model.py`
 
 # References
 1. Ioffe, S. and Szegedy, C. (2015) Batch Normalization: Accelerating Deep Network Training
