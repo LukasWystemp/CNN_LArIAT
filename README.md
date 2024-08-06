@@ -7,6 +7,8 @@ The question it aimed to address was:
 - What is the optimal model configuration and structure with the highest accuracy?
 - Utilising gradient based localisation to visually represent the neural network, can I gain insights into its classification mechanisms to maximise the model’s performance, ensure applicability at LArIAT and other LArTPCs, and improve resilience to noise?
 
+# File overview
+
 | Project files | What they do |
 | --------------| -------------|
 | make_train_model.py | Makes the model and trains it in the same file |
@@ -16,6 +18,7 @@ The question it aimed to address was:
 | model_visualisation.py | Different gradient-based visualisation techniques |
 
 
+# Gradient based CNN visualisation techniques
 'model_visualisation.py' employs several gradient-based visualisation:
 | Method | What it does |
 | -------| -------------|
