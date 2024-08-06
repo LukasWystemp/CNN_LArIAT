@@ -1,4 +1,6 @@
-# CNN_LArIAT
-CNN for LArIAT particle identification
+Feasability of CNNs for particle identification at LArIAT
 
-work in progress, ignore for now
+This was a summer project by Lukas Wystemp at the University of Manchester in collaboration with the Fermilab Liquid argon in a testbeam (LArIAT) detector. 
+
+$x^y$
+ 
