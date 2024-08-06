@@ -30,6 +30,7 @@ The question it aimed to address was:
 
 # Visual Examples
 These examples use real test data from a Monte-Carlo simulation of the collection plane at LArIAT. 
+
 ![image](https://github.com/user-attachments/assets/28f2fc43-3a20-46b8-bfc6-bbafff0b3e6e)
 ![image](https://github.com/user-attachments/assets/1c881eac-e911-4607-aaa0-f768f0894a77)
 ![image](https://github.com/user-attachments/assets/409315d0-1cc1-4352-a10b-000008ec0ee7)
