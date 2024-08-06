@@ -1,6 +1,6 @@
-Feasability of CNNs for particle identification at LArIAT
+# Feasability of CNNs for particle identification at LArIAT
 
-This was a summer project by Lukas Wystemp at the University of Manchester in collaboration with the Fermilab Liquid argon in a testbeam (LArIAT) detector. 
+This was my summer project in second year physics at the University of Manchester in collaboration with the Fermilab liquid argon in a testbeam (LArIAT) detector. 
 
 The question it aimed to address was:
 - Can CNNs which have been developed for information dense photographs with various textures, colours, etc. be applied to LArTPC data which is very information sparse. Can high accuracies be achieved?
