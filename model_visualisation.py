@@ -66,7 +66,7 @@ from tf_keras_vis.saliency import Saliency
 classes = ['electron', 'kaon', 'muon', 'photon', 'pion', 'pion_zero']
 
 # Set the working directory, change this to your own directory
-os.chdir('/Users/lukaswystemp/Desktop')
+os.chdir('')
 
 # Init
 K.clear_session()
@@ -628,7 +628,7 @@ def call_grad_rectgrad(model, img, class_idx):
 ### Main ###
 def main():
     # Load model
-    model = tf.keras.models.load_model('/Users/lukaswystemp/Desktop/k_fold_model_2.h5')
+    model = tf.keras.models.load_model('')
     model.trainable = False
     
     # Get overview of model  
@@ -638,7 +638,7 @@ def main():
     model.summary()
 
     # import image
-    img = '/Users/lukaswystemp/Documents/University/UoM_Internship/npData/electron_111.npy'  
+    img = ''  
     img = load_image(img)
     if img is None:
         sys.exit()
