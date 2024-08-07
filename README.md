@@ -49,6 +49,8 @@ These examples use real test data from a Monte-Carlo simulation of the collectio
 3. Change `layer_name = 'conv2d_2'` and `activation_layer = 'conv2d_2'` to whatever layer you want to investigate according to `model.summary()`. 
 4. Change class names if you are investigating your own model
 
+Do not use a newer version of tensorflow than 2.13 as this will lead to errors when importing `new_model.h5`. 
+
 
 # References
 1. Ioffe, S. and Szegedy, C. (2015) Batch Normalization: Accelerating Deep Network Training
