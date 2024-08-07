@@ -634,7 +634,7 @@ def main():
     # Get overview of model  
     plot_model(model, to_file='model.png', show_shapes=True, show_layer_names=True)
     Image('model.png')
-    #display(Image('model.png'))
+    #display(Image('model.png')) # returns image of model structure
     model.summary()
 
     # import image
@@ -673,7 +673,7 @@ def main():
 
     # Guided Backpropagation
     activation_layer = 'conv2d_2'
-    #call_guided_backprop(model, img, class_idx, activation_layer)
+    call_guided_backprop(model, img, class_idx, activation_layer)
 
 if __name__ == '__main__':
     main()
