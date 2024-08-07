@@ -44,11 +44,11 @@ These examples use real test data from a Monte-Carlo simulation of the collectio
 
 
 # Use this code
-- change `model = tf.keras.models.load_model()` and `img = ''` to str with your .h5 and .npy file location respectively
-- Change `layer_name = 'conv2d_2'` and `activation_layer = 'conv2d_2'` to whatever layer you want to investigate according to `model.summary()`. 
-- Change class names
+1. Download `model_visualisation.py` and `new_model.h5` or your own model but it should have a similar architecture to `make_train_model.py`
+2. In `model_visualisation.py` change `model = tf.keras.models.load_model()` and `img = ''` to a str with the file location of the model (.h5) and the input image (.npy). The image should be a two dimensional array, e.g. (240, 146). If you want to use different length arrays you have to adapt the functions `load_image()`, `grad_cam()`, `guided_grad_cam()`, `draw_bounding_box()` as they rely on knowledge about the input array dimension
+3. Change `layer_name = 'conv2d_2'` and `activation_layer = 'conv2d_2'` to whatever layer you want to investigate according to `model.summary()`. 
+4. Change class names if you are investigating your own model
 
-Assumes that your model is similar to `make_train_model.py`
 
 # References
 1. Ioffe, S. and Szegedy, C. (2015) Batch Normalization: Accelerating Deep Network Training
