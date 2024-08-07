@@ -1,0 +1,7 @@
+numpy
+tensorflow=2.13.1
+keras=2.13.1
+scikit-learn
+pickle
+matplotlib
+from tf_keras_vis
