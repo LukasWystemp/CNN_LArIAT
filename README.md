@@ -51,7 +51,6 @@ These examples use real test data from a Monte-Carlo simulation of the collectio
 
 Do not use a newer version of tensorflow than 2.13 as this will lead to errors when importing `new_model.h5`. 
 
-
 # References
 1. Ioffe, S. and Szegedy, C. (2015) Batch Normalization: Accelerating Deep Network Training
 by Reducing Internal Covariate Shift [Preprint]. Available at:https://arxiv.org/pdf/1502.03167.
